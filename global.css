@@ -73,7 +73,7 @@ p:after{
 	z-index: 200;
 }
 .draw:nth-child(-n+16){
-	border-top:none;
+	border-top: solid 0px;
 }
 .draw:first-child,
 .draw:nth-child(17),
@@ -91,7 +91,7 @@ p:after{
 .draw:nth-child(209),
 .draw:nth-child(225),
 .draw:nth-child(241){
-	border-left:none;
+	border-left:solid 0px;
 }
 
 main{
