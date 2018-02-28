@@ -12,8 +12,34 @@
 		<h1>Etch-a-sketch simulator</h1>
 		<h2>-a part of the Odin Project course</h2>
 	</header>
+		<div class="button_container">
+			<button class="button" id="settings">Settings</button>
 
-	
+			
+			
+			<button onclick="reset" class="button" id="reset">Reset artboard</button>
+		</div>
+		<div class="hidden_settings">
+
+			<div class="settingsCat">
+				<h3>Resolution</h3>
+					<div class="radioContainer">
+						<div class="radio_circle grid16 "></div>
+						<span class="redioDesc">16x16 Grid</span>
+					</div>
+					<div class="radioContainer">
+						<div class="radio_circle grid32"></div>
+						<span class="redioDesc">32x32 Grid</span>
+					</div>
+					<div class="radioContainer">
+						<div class="radio_circle  grid64"></div>
+						<span class="redioDesc ">64x64 Grid</span>
+					</div>
+					<button onclick="reset" class="button" id="updateRes">Update Resolution</button>
+			</div>
+
+
+		</div>
 		<main>
 			
 		</main>
