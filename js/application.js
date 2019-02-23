@@ -28,10 +28,10 @@ $(document).ready(function(){
 			}*/
 
 
-		$('.radio_circle').on('click', function(){
+		/*$('.radio_circle').on('click', function(){
 			$('.checked').removeClass('checked');
 			$(this).toggleClass('checked');
-/*
+
 			if($('.radio_circle').hasClass('grid16') && $('.radio_circle').hasClass('checked')){
 				const res = 16 * 16;
 				return res;
@@ -39,17 +39,34 @@ $(document).ready(function(){
 
 			}
 			return res;
-			console.log(res);*/
+			console.log(res);
 			console.log('seperator');	
-		})	
+		})*/	
+
+
+		
+
+		$('.grid32').on('click',function(){
+			$('.checked').removeClass('checked');
+			$(this).toggleClass('checked');
+			
+
+			x = 32;
+			console.log(x)
+			return x;
+
+		})
 
 		
 
 
-		
+		const res = x * x;
+
+
+		default = 257;
 
 		// legger til div'er 
-		/*for (let i = 1; i < res; i++){
+		for (let i = 1; i < ; i++){
 		$('main').append('<div class="square"></div>');
 		}
 
@@ -57,10 +74,14 @@ $(document).ready(function(){
 		$('#updateRes').on('click', function(){
 			$("div.square").remove();
 
+			console.log(x)
+
 			for (let i = 1; i < res; i++){
 			$('main').append('<div class="square"></div>');
 			}
-		})*/
+
+			console.log(res)
+		})
 
 
 
